@@ -26,18 +26,20 @@ header h2{
   margin-top: 25px;
 }
 nav{
-  width: 900px;
+  flex-grow: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 25px;
   margin-right: 25px;
+  flex-wrap: nowrap;
 }
 
-header a{
+header nav a{
   text-decoration: none;
+  white-space: nowrap;
   color:#E4EEF1;
   font-weight: 400;
-  padding-right: 25px;
+  
   font-size: 1.8rem;
   font-family: 'Inter', sans-serif;
 }
