@@ -19,16 +19,16 @@ header picture {
 }
 header h2{
   color:#E4EEF1;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   margin-right: 450px;
   margin-top: 25px;
 }
 nav{
-  width: 800px;
+  width: 900px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 25px;
   margin-right: 25px;
 }
@@ -37,15 +37,8 @@ header a{
   text-decoration: none;
   color:#E4EEF1;
   font-weight: 400;
-  font-size: 2rem;
-  padding-right: 20px;
+  font-size: 1.8rem;
   font-family: 'Inter', sans-serif;
-}
-
-header a:hover{
-  font-size: 2.2rem;
-  color: #d9e0e6;
-  transition: 0.3ms;
 }
 
 .inverno-texto{
@@ -98,7 +91,7 @@ header a:hover{
   height:300px;
   background-color: #E4EEF1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .inverno-imagens img {
   margin-right: 50px;
