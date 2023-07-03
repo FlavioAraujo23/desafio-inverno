@@ -37,6 +37,7 @@ header a{
   text-decoration: none;
   color:#E4EEF1;
   font-weight: 400;
+  padding-right: 25px;
   font-size: 1.8rem;
   font-family: 'Inter', sans-serif;
 }
@@ -94,7 +95,7 @@ header a{
   justify-content: space-evenly;
 }
 .inverno-imagens img {
-  margin-right: 50px;
+  margin-right: 25px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
