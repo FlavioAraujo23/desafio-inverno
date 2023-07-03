@@ -3,7 +3,11 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  
+}
+html{
   font-size: 62,5%;
+  font-family: 'Inter', sans-serif;
 }
 
 header{
@@ -14,34 +18,31 @@ header{
   justify-content: space-between;
 }
 header picture {
-  margin-left: 20px;
-  margin-top:5px;
+  width: 20vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 header h2{
   color:#E4EEF1;
   font-size: 1.8rem;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  margin-right: 450px;
-  margin-top: 25px;
 }
+
 nav{
-  flex-grow: 1;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 25px;
-  margin-right: 25px;
-  flex-wrap: nowrap;
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 50vw;
+height: 15vh;
 }
 
 header nav a{
   text-decoration: none;
-  white-space: nowrap;
   color:#E4EEF1;
   font-weight: 400;
-  margin-right: 25px;
   font-size: 1.8rem;
-  font-family: 'Inter', sans-serif;
 }
 
 .inverno-texto{
@@ -56,7 +57,6 @@ header nav a{
   height: 600px;
   width: 700px;
   font-size: 1.5rem;
-  font-family: 'Inter', sans-serif;
   color: #0F468C;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -80,7 +80,6 @@ header nav a{
   height: 300px;
   margin-top: 40px;
   font-size: 2.5rem;
-  font-family: 'Inter', sans-serif;
   color:#E4EEF1;
 }
 
@@ -115,7 +114,6 @@ footer{
   margin-bottom: 10px;
   font-size: 1.8rem;
   color: #E4EEF1;
-  font-family: 'Inter', sans-serif;
 }
 
 .footer-info p {
